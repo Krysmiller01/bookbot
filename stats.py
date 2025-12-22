@@ -32,7 +32,7 @@ def sorted_list(characters):
     for char in dictionary:
         value = dictionary[char]
         nm = {
-            f"name": char,
+            f"char": char,
             f"val": value
         }
         the_list.append(nm)
@@ -42,7 +42,3 @@ def sorted_list(characters):
 
 
 
-def main():
-    print(count_words("books/frankenstein.txt"))
-    print(sorted_list("books/frankenstein.txt"))
-main()
