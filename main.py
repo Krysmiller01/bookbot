@@ -2,7 +2,13 @@ from stats import count_words
 from stats import count_char
 from stats import sort_on
 from stats import sorted_list
-path = "books/frankenstein.txt"
+import sys
+
+if len(sys.argv) != 2:
+    print("Usage: python3 main.py <path_to_book>")
+    sys.exit(1)
+
+path = sys.argv[1]
 
 def report(book):
     count = count_words(path)
