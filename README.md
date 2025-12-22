@@ -2,7 +2,14 @@
 
 BookBot is my first [Boot.dev](https://www.boot.dev) project!
 
-Project description: Bookbot was a minimally guided project that takes most of the fundamentals of learning python and creates a program that: grabs a *.txt file, reads the word count, turns all the characters into lowercase, creates a dictionary of key: character : number of instances used (e.g. e : 223 - in plain english: the letter e was used 223 times), converts the dictionary into a list of dictionaries, sorts them from highest instance to lowest, prints a report of the word count and the character count in highest to lowest instance - while keeping non-alpha characters out.
+Project description: Bookbot was a minimally guided project that takes most of the fundamentals of learning python and creates a program that: 
+1. grabs a *.txt file
+2. reads the word count
+3. turns all the characters into lowercase
+4. creates a dictionary of key: character : number of instances used (e.g. e : 223 - in plain english: the letter e was used 223 times)
+5. converts the dictionary into a list of dictionaries
+6. sorts them from highest instance to lowest
+7. prints a report of the word count and the character count in highest to lowest instance - while keeping non-alpha characters out.
 
 how to run it: python3 main.py books/frankenstein.txt 
 
