@@ -88,16 +88,26 @@ z: 235
 ô: 1
 
 Installation steps: 
-1. Make sure you have python3 installed: 
+1. Make sure you have python3 installed:
+   
   check with: python3 --version
+  
   if not installed, use this to install: 
+  
   sudo apt update
+  
   sudo apt install -y python3
+  
 2. Clone the repository:
+   
    git clone git@github.com:Krysmiller01/bookbot.git
+   
 3. Navigate into the directory:
+   
    cd bookbot/bookbot
+   
 4. Run it:
+   
    python3 main.py books/<your-book-here>
 
 Dependencies:
